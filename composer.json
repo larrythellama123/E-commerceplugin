@@ -1,0 +1,22 @@
+{
+  "name": "your-vendor-name/stripe-checkout-plugin",
+  "description": "A WordPress plugin to integrate Stripe Checkout",
+  "type": "wordpress-plugin",
+  "require": {
+      "php": ">=7.4",
+      "composer/installers": "^1.0 || ^2.0",
+      "stripe/stripe-php": "^12.0"
+  },
+  "license": "GPL-2.0-or-later",
+  "authors": [
+      {
+          "name": "Your Name",
+          "email": "your.email@example.com"
+      }
+  ],
+  "config": {
+      "allow-plugins": {
+          "composer/installers": true
+      }
+  }
+}

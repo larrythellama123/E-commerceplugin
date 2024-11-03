@@ -1,0 +1,52 @@
+
+
+  #checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+#checkout-form > label,
+#checkout-form > input,
+#checkout-form > div,
+#checkout-form > button {
+    margin-bottom: 15px;
+}
+.age-field {
+    margin-bottom: 10px;
+}
+#checkout-form input[type="text"],
+#checkout-form input[type="tel"],
+#checkout-form input[type="number"],
+#checkout-form button {
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+#checkout-form button {
+    background-color: #4CAF50;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+#checkout-form button:hover {
+    background-color: #17e833;
+}
+
+.age-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.age-field input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.age-field button {
+  font-size: 0.8em;
+  padding: 4px 8px;
+  margin-left: 5px;
+}
+#add-age {
+  align-self: flex-start;
+  font-size: 0.9em;
+  padding: 6px 12px;
+}
